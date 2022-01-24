@@ -13,7 +13,7 @@ public class Polaczenie {
         return cena;
     }
     public Polaczenie_kon(LocalDateTime data, String numer , int cena){
-        cena = obliczCenad(cena)
+        cena = obliczCena(cena)
         this.data = data;
         this.numer = numer;
         this.cena = cena;
